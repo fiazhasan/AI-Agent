@@ -75,13 +75,15 @@ Example JSON format for each input:
   - It calculates the total and average steps over the input period.
   - Provides a suggestion to improve physical activity if average steps fall below 10,000.
 #### Output Example:
-![Fitness Agent Output](data.png)
+![Fitness Agent Output](fitness.png)
 
 ### Sleep Analysis Agent
 - **Purpose**: Analyzes sleep data to assess the user's sleep quality.
 - **Logic**:
   - It calculates the total sleep hours and the number of disturbances.
   - If the average sleep is below 7 hours, it recommends getting more sleep.
+#### Output Example:
+![Fitness Agent Output](sleep_interface.png)
 
 ### Journaling Sentiment Analysis Agent
 - **Purpose**: Analyzes the sentiment of journal entries to gauge the user's emotional state.
@@ -89,6 +91,8 @@ Example JSON format for each input:
   - Each journal entry is evaluated for sentiment polarity using **TextBlob**.
   - The sentiment is categorized into positive, negative, or neutral.
   - The summary provides the percentage of positive, negative, and neutral entries.
+#### Output Example:
+![Fitness Agent Output](journaling_interface.png)
 
 ### Data Integration Class
 - **Purpose**: Loads and normalizes wearable data (e.g., steps, heart rate, sleep) from a mock data source for visualization.
