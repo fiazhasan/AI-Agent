@@ -74,6 +74,8 @@ Example JSON format for each input:
 - **Logic**:
   - It calculates the total and average steps over the input period.
   - Provides a suggestion to improve physical activity if average steps fall below 10,000.
+#### Output Example:
+![Fitness Agent Output](images/fitness_output.png)
 
 ### Sleep Analysis Agent
 - **Purpose**: Analyzes sleep data to assess the user's sleep quality.
@@ -93,6 +95,9 @@ Example JSON format for each input:
 - **Logic**:
   - It provides mock data (user metrics) for testing purposes.
   - The data is normalized to ensure consistency in the application.
+
+
+
 
 ## Folder Structure
 ```
