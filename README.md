@@ -75,7 +75,7 @@ Example JSON format for each input:
   - It calculates the total and average steps over the input period.
   - Provides a suggestion to improve physical activity if average steps fall below 10,000.
 #### Output Example:
-![Fitness Agent Output](images/fitness_output.png)
+![Fitness Agent Output](data.png)
 
 ### Sleep Analysis Agent
 - **Purpose**: Analyzes sleep data to assess the user's sleep quality.
