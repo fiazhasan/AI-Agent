@@ -21,7 +21,7 @@ Ensure you have the following installed:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/holistic-health-dashboard.git
+   git clone https://github.com/fiazhasan/holistic-health-dashboard.git
    cd holistic-health-dashboard
    ```
 
